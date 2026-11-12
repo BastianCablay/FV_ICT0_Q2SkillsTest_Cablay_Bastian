@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seatwork 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+</head>
+<style>
+    #name{
+        width: 100%;}
+
+    #Grade{
+        width: 100%;
+        border-radius: 5px;
+        height: 35px;
+        opacity: 50%;
+    }
+
+</style>
+<body>
+    <form>
+        <h2 class="text-center">Contact Us</h2>
+            <div class="row" id="name">
+                <div class="col">
+                    <label class="form-label">First Name</label>
+                    <input type="text" class="form-control mb-3"
+                    placeholder="Enter your full name">
+                </div>
+
+                <div class="col">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" class="form-control mb-3"
+                    placeholder="Enter your full name">
+                </div>
+            </div>
+
+            <div class="row" id="name">
+                <div class="col">
+                    <label class="Date">Birth Date</label>
+                    <input type="date" class="form-control mb-3" >
+                </div>
+                
+                <div class="col">
+                    <label class="form-label">Gender</label>
+                    <input type="text" class="form-control mb-3"
+                    placeholder="Enter subject">
+                </div>
+                
+                <div class="col">
+                    <label>Grade level</label>
+                    <select class="mb-3" id="Grade">
+                        <option value="Grade 1"> Grade 1</option>
+                        <option value="Grade 2"> Grade 2</option>
+                        <option value="Grade 3"> Grade 3</option>
+                        <option value="Grade 4"> Grade 4</option>
+                        <option value="Grade 5"> Grade 5</option>
+                        <option value="Grade 6"> Grade 6</option>
+                        <option value="Grade 7"> Grade 7</option>
+                        <option value="Grade 8"> Grade 8</option>
+                    </select>
+                </div>
+            </div>
+
+                <button type="submit" class="btn btn-primary w-100">
+                    Send Message
+                </button>
+
+            </form>
+</body>
+</html>
